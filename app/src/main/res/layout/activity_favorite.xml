@@ -39,7 +39,7 @@
         android:orientation="horizontal"
         android:background="@drawable/circle_border_background"
         android:padding="12dp"
-        android:layout_marginTop="-70dp"
+        android:layout_marginTop="-90dp"
         android:layout_marginRight="10dp"
         android:layout_gravity="end"
         android:elevation="10dp">
