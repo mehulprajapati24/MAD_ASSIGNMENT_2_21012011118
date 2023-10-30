@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEWS NOW"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#00897B"
+        android:id="@+id/app_title"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_recycler_view"/>
+
+    <TextView
+        android:id="@+id/emptyLibrary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Not a single news has been saved!"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle_border_background"
+        android:padding="12dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="end"
+        android:elevation="10dp">
+
+        <ImageView
+            android:id="@+id/button_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_remove_circle_24"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REMOVE ALL NEWS"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>

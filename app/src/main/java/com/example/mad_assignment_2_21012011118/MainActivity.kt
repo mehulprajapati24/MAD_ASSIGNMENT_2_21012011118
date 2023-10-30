@@ -72,9 +72,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         getNews("GENERAL", null)
 
         val btn8 : LinearLayout = findViewById(R.id.btn_8)
-//        btn8.setOnClickListener {
-//            startActivity(Intent(this@MainActivity, FavoriteActivity::class.java))
-//        }
+        btn8.setOnClickListener {
+            startActivity(Intent(this@MainActivity, FavoriteActivity::class.java))
+        }
     }
 
     private fun setupRecyclerView() {
