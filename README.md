@@ -11,6 +11,8 @@ Features:
 Browse a wide range of news categories, including General, Technology, Entertainment, Sports, and more.
 View detailed articles with images, headlines, and summaries.
 Search for specific news topics or keywords.
+Save news articles for later viewing, creating a personalized reading list.
+Remove saved articles from your list as needed.
 Stay connected with the world and never miss out on important news updates with the News Application.
 
 
